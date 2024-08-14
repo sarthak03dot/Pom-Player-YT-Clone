@@ -1,3 +1,6 @@
+# PomPlayer
+![Recording 2024-08-15 011035 (1)](https://github.com/user-attachments/assets/a382b2ac-9859-4238-922c-29c728fed2b4)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
