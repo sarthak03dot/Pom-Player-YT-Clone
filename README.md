@@ -1,73 +1,131 @@
-# PomPlayer
-![Recording 2024-08-15 011035 (1)](https://github.com/user-attachments/assets/a382b2ac-9859-4238-922c-29c728fed2b4)
 
-# Getting Started with Create React App
+# 🎥 Pom-Player — YouTube Style Video Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pom-Player is a YouTube-inspired personal video platform built using **React**, offering a sleek UI, video search via YouTube API, and a responsive layout. Ideal for focused content viewing, productivity, or just building your own custom YouTube clone.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- 🔎 Live video search with YouTube Data API
+- 🎬 Embedded video player with title and description
+- 🧾 Responsive layout (mobile & desktop friendly)
+- 🧑‍💻 About page & personal branding
+- 🌑 Dark mode support
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Preview
 
-### `npm test`
+![Image](https://github.com/user-attachments/assets/4cfba233-13e6-4bba-a479-501bd9b8c804)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ⚛️ React
+- 🎨 Custom CSS (YouTube-inspired)
+-JavaScript
+- 🧠 YouTube Data API v3
+- ⚙️ React Hooks (`useState`, `useEffect`)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Folder Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+pom-player/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── SearchBar.js
+│   │   ├── VideoItem.js
+│   │   ├── VideoList.js
+│   │   ├── VideoDetail.js
+│   │   ├── Footer.js
+│   ├── App.js
+│   ├── index.js
+│   ├── app.css
+├── .env
+├── README.md
+└── package.json
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone this repository
 
-## Learn More
+```bash
+git clone https://github.com/sarthak03dot/pom-player.git
+cd pom-player
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 2. Install dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+### 3. Get a YouTube API Key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Go to [Google Developer Console](https://console.developers.google.com/)
+- Create a new project
+- Enable **YouTube Data API v3**
+- Generate an **API key**
+- Add it to a `.env` file at the project root:
 
-### Analyzing the Bundle Size
+```
+REACT_APP_YOUTUBE_API_KEY=your_api_key_here
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4. Start the app
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🌐 Deployment
 
-### Deployment
+You can deploy Pom-Player using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- GitHub Pages (via `gh-pages`)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✍️ Author
+
+**Sarthak Singh**  
+🎓 Full Stack Developer | MERN Stack  
+📧 sarthak03december@gmail.com  
+
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📌 Future Plans
+
+- 🌗 Add dark mode toggle
+- 💬 Add mocked comments & likes
+- 🧾 Save search history & favorites (local storage or backend)
+- 👥 Add user login/auth for personalized playlists
+
+---
+
+## 💡 Acknowledgements
+
+- Inspired by the official [YouTube UI](https://youtube.com)
+- Thanks to [YouTube Data API](https://developers.google.com/youtube/v3) for video search
