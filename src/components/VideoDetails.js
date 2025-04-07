@@ -1,19 +1,16 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React from "react";
 
 const VideoDetails = ({ video }) => {
-  const { id } = useParams();
-
   if (!video) return <div>Loading ...</div>;
-
+  // const videoId = video.id.videoId || video.id;
   return (
     <div>
       <iframe
-        title='video player'
-        width='100%'
-        height='400px'
-        src={`https://www.youtube.com/embed/${video.id.videoId}`}
-        frameBorder='0'
+        title="video player"
+        width="100%"
+        height="400px"
+        src={`https://www.youtube.com/embed/${video.id.videoId || video.id}`}
+        allowFullScreen
       />
       <h4>{video.snippet.title}</h4>
       <p>{video.snippet.description}</p>
