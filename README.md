@@ -4,6 +4,17 @@
 Pom-Player is a YouTube-inspired personal video platform built using **React**, offering a sleek UI, video search via YouTube API, and a responsive layout. Ideal for focused content viewing, productivity, or just building your own custom YouTube clone.
 
 ---
+## 🖼️ Preview
+
+![Image](https://github.com/user-attachments/assets/4cfba233-13e6-4bba-a479-501bd9b8c804)
+
+<img width="1917" height="955" alt="Image" src="https://github.com/user-attachments/assets/bcd771ca-714b-493f-9ddd-cec0727be47f" />
+
+<img width="1522" height="940" alt="Image" src="https://github.com/user-attachments/assets/9ab277fb-5eb2-4607-aedc-2ba3fa7f0076" />
+
+<img width="1538" height="225" alt="Image" src="https://github.com/user-attachments/assets/1572a077-9efb-4cc3-bba6-6d0d0a72e293" />
+
+---
 
 ## 🌟 Features
 
@@ -14,10 +25,6 @@ Pom-Player is a YouTube-inspired personal video platform built using **React**, 
 - 🌑 Dark mode support
 
 ---
-
-## 🖼️ Preview
-
-![Image](https://github.com/user-attachments/assets/4cfba233-13e6-4bba-a479-501bd9b8c804)
 
 
 ---
